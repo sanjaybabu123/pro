@@ -1,0 +1,58 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="profile_style.css">
+</head>
+<body>
+    <nav>
+        <ul>
+            <li> About </li><br>
+            <li> Contact </li>
+        </ul>
+    </nav>
+    <img onmouseover="imageBig(this)" onmouseout="imageSmall(this)" src="image12.jpg" alt="sanjay babu">
+    <h1> SANJAY BABU </h1>
+    <p><i> Hi!! I'm Babu.. Sanjay Babu!! I'm a Electronics and Communication Engineer!!</i></p>
+    <a href="https://www.google.co.in/">google</a>  &#124;
+    <a href="https://accounts.google.com/">Email</a>  &#124;
+    <a href="https://en-gb.facebook.com/login/">facebook</a>
+    <br/>
+    <br/>
+    <form action="">
+        <select name = "branch">
+        <option value = "Branch">Branch</option>
+        <option value = "Electronics">Electronics</option>
+        <option value = "Electrical">Electrical</option>
+        <option value = "Civil">Civil</option>
+        <option value = "Mechanical">Mechanical</option>
+         </select>
+    </form>
+
+    <form action= "#" method = "post">
+        <fieldset>
+         <legend>login page:</legend>
+        <label>name </label> <input type = "text"><br>
+        <label>email</label> <input type = "text"><br>
+        <label>DOB  </label> <input type = "numeric"><br>
+        <input type = "submit" name =  "submit"value = "submit">
+    </fieldset>
+        </form>
+
+    <p1><ul>please execuse if u found any mistakes<ul></p1>
+
+    <script>
+        function imageBig(x) {
+            x.style.height = "250px";
+            x.style.width = "250px";
+        }
+        function imageSmall(x) {
+            x.style.height = "200px";
+            x.style.width = "200px";
+        }
+    </script>
+</body>
+</html>
